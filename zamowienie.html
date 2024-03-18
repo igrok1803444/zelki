@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pyszne żelki</title>
+
+    <link rel="stylesheet" href="./madzia.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-header">
+        <a href="./index.html" class="logo-link"
+          ><img src="./img/logo.png" alt="znak loga fabryk" class="logo-img"
+        /></a>
+      </div>
+      <div class="right-header">
+        <a href="./zamowienie.html" class="order-page-link">Zamówienie</a>
+      </div>
+    </header>
+    <main>
+      <section class="main-baner">
+        <h2 class="banner-text">Zamów nasz produkt</h2>
+      </section>
+      <section class="left-main-section">
+        <h1 class="left-section-title">Oferta</h1>
+        <table class="left-section-table">
+          <tr class="table-row">
+            <td class="table-data">Kształty</td>
+            <td class="table-data">Kolory</td>
+          </tr>
+          <tr class="table-row">
+            <td class="table-data">
+              <ol class="left-table-ordered-list">
+                <li class="list-item">miś</li>
+                <li class="list-item">żabka</li>
+                <li class="list-item">serce</li>
+              </ol>
+            </td>
+            <td class="table-data">
+              <ol class="left-table-ordered-list">
+                <li class="list-item">czerwony</li>
+                <li class="list-item">niebieski</li>
+                <li class="list-item">żółty</li>
+                <li class="list-item">inny</li>
+              </ol>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <section class="right-main-section">
+        <p class="right-section-text">Podaj numer kształtu:</p>
+        <input type="number" name="form-number" id="form-number" />
+        <p class="right-section-text">skomponuj swój kolor, podaj RGB:</p>
+        <label class="right-section-label"
+          >R: <input type="number" name="value-red" id="value-red"
+        /></label>
+        <label class="right-section-label"
+          >G: <input type="number" name="value-green" id="value-green"
+        /></label>
+        <label class="right-section-label"
+          >B: <input type="number" name="value-blue" id="value-blue"
+        /></label>
+        <button type="button">Zamów</button>
+
+        <p class="right-section-script-label">Wybrany kształt</p>
+        <button type="button">Wybrany kolor</button>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer-text">Autor strony: <i>Vialov Vlad</i></p>
+    </footer>
+  </body>
+</html>
