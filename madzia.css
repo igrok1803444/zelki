@@ -1,6 +1,9 @@
 html {
   font-family: Georgia;
 }
+* {
+  box-sizing: border-box;
+}
 
 .header {
   display: grid;
@@ -50,7 +53,7 @@ main {
   letter-spacing: 10px;
 }
 .left-main-section {
-  height: 400px;
+  /* height: 400px; */
 
   color: #fff;
 }
@@ -72,7 +75,7 @@ main {
 }
 
 .right-main-section {
-  height: 400px;
+  /* height: 400px; */
 
   color: #fff;
 }
@@ -88,4 +91,7 @@ main {
   background-color: rgb(246, 226, 222);
 
   text-align: center;
+}
+.footer-text {
+  margin: 0;
 }
